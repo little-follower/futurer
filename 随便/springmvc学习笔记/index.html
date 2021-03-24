@@ -16,7 +16,7 @@
 <meta property="og:description" content="springmvc 概述springmvc定义基于spring的一个框架，实际上就是spring的一个模块，专门是做web开发的，理解为servlet的升级。web开发底层是servlet，框架是在servlet基础上面加入一些功能，让开发更方便。 spring和springmvc对比spring：spring是容器，ioc能够管理对象，使用&lt; bean&gt;，@Component，@Re">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-03-24T06:48:47.000Z">
-<meta property="article:modified_time" content="2021-03-24T06:50:52.423Z">
+<meta property="article:modified_time" content="2021-03-24T07:14:14.411Z">
 <meta property="article:author" content="小跟班">
 <meta name="twitter:card" content="summary">
   
@@ -203,7 +203,6 @@
 <p>简化流程：</p>
 <p>some.do -&gt; DispatcherServlet -&gt; MyController</p>
 <p>流程如图：</p>
-<p>#TODO:待添加图片</p>
 <p>创建好web项目后，在pom.xml中加入servlet和springmvc依赖</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">  &lt;groupId&gt;javax.servlet&lt;&#x2F;groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;javax.servlet-api&lt;&#x2F;artifactId&gt;</span><br><span class="line">  &lt;version&gt;3.1.0&lt;&#x2F;version&gt;</span><br><span class="line">  &lt;scope&gt;provided&lt;&#x2F;scope&gt;</span><br><span class="line">&lt;&#x2F;dependency&gt;</span><br><span class="line"></span><br><span class="line">&lt;!--spring mvc--&gt;</span><br><span class="line">&lt;dependency&gt;</span><br><span class="line">  &lt;groupId&gt;org.springframework&lt;&#x2F;groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;spring-webmvc&lt;&#x2F;artifactId&gt;</span><br><span class="line">  &lt;version&gt;5.2.5.RELEASE&lt;&#x2F;version&gt;</span><br><span class="line">&lt;&#x2F;dependency&gt;</span><br></pre></td></tr></table></figure>
 
